@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+.Main{
+    display: flex;
+    flex-direction: column;
+}
+.navbar{
+    min-width: 100%;
+    min-height: 55px;
+    display: flex;
+    justify-content: center;
+    background-color: #F55A5A;
+    padding: 1em;
+    margin-bottom: 20px;
+}
+.navbar>img{
+    height: 24px;
+    width: 24px;
+}
+.navbar>h3{
+    color: white;
+    padding-left: 7px;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: -0.075em;
+}
+.cards{
+    margin-top:18px;
+    margin-bottom:18px;
+    min-width:470px;
+    min-height: 168px;
+    display: flex;
+    justify-content: center;
+}
+.place-img img{
+    height: 168px;
+    width: 125px;
+    border-radius: 5px;
+    object-fit: cover;
+    object-position: center center;
+}
+.card--content{
+    
+    display: flex;
+    flex-direction: column;
+    margin-left:19px;
+    justify-content: center;
+    
+}
+.card--location{
+    
+    display: flex;
+    min-height: 9.55px; 
+}
+.location--img{
+    max-width: 11px;
+}
+.location--name{
+    text-transform: uppercase;
+    font-family: Inter;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 0.17em;
+    color: #2B283A;
+}
+.location--link{
+    font-family: Inter;
+    font-size: 10px;
+    line-height: 12px;
+    color: #918E9B;
+    padding-left: 1em; 
+}
+.card--content{
+    font-family:Inter;
+}
+.title{
+    
+    min-height: 40px;
+    margin-top:4px;
+    font-family: Inter;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30px;  
+}
+.date{
+    
+    font-family: Inter;
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 12px;
+}
+.description{
+    height: 60px;
+    width: 326px;
+    margin-top: 9px;
+    font-family: Inter;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 15px;
+}
+.hori--line{
+    border: 1px solid #F5F5F5;
+}
+.container{
+    padding: 2rem;
+}
+
